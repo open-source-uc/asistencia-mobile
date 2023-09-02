@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { View, Text, TouchableOpacity, Alert, StyleSheet } from "react-native";
 import NfcManager, { NfcTech } from "react-native-nfc-manager";
-import { calculateChileanRunValidator } from "@/utils/auxFunctions"; // Ensure this path is correct
+import { calculateChileanRunValidator } from "@/utils/auxFunctions";
 import { takeAttendance } from "@/api/attendance";
 
 NfcManager.start();

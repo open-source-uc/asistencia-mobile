@@ -41,7 +41,7 @@ function TakeAttendance({ route, navigation }) {
         <TextInput
           style={styles.input}
           placeholder="Ingresar RUT/N° Alumno/Nombre"
-          // Otros props del TextInput
+          onChangeText={(text) => setStudentRut(text)}
         />
         <Button
           title="Agregar"
