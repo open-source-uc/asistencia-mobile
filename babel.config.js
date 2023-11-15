@@ -12,6 +12,7 @@ module.exports = function(api) {
           extensions: [".js", "jsx", ".ts", "tsx", ".ios.js", ".android.js"],
         },
       ],
+      ['expo-router/babel'],
     ],
   };
 };
