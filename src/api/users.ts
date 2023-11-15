@@ -1,6 +1,6 @@
 import client from "./client";
 
-function getMe() {
+const getMe = async () => {
   return client.get("/users/me");
 }
 
